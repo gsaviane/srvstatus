@@ -93,9 +93,9 @@ if __name__ == '__main__':
         os.environ["LC_ALL"] = "C"
 
         # Getting params from config
-        pwd = os.path.abspath(os.path.dirname(os.path.realpath(__file__)))
+        # pwd = os.path.abspath(os.path.dirname(os.path.realpath(__file__)))
         config = configparser.ConfigParser()
-        config.read('%s/settings.ini' % pwd)
+        config.read('/etc/telegraf/srvstatus.ini')
 
         services = config.get('SERVICES', 'name').split()
 
