@@ -1,2 +1,5 @@
 configparser==3.5.0
 parsedatetime==2.4
+# This is actually needed for gathering eqiva metrics via https://github.com/Heckie75/Eqiva-Smart-Radiator-Thermostat
+# But we aggregate all input.exec python scripts here
+bleak=0.22.3

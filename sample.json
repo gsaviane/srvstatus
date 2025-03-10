@@ -1,0 +1,301 @@
+[
+  {
+    "mac": "00:1A:22:1C:4D:DC",
+    "name": "CC-RT-BLE",
+    "vendor": "eq-3",
+    "serialNumber": "TEQ0999016",
+    "firmware": 1.48,
+    "mode": [
+      "AUTO",
+      "DAYLIGHT_SUMMER_TIME"
+    ],
+    "temperature": {
+      "valueC": 14.5,
+      "valueF": 58.1
+    },
+    "valve": 100,
+    "vacation": {
+      "until": null
+    },
+    "program": {
+      "sat": [
+        {
+          "temparature": {
+            "valueC": 14.5,
+            "valueF": 58.1
+          },
+          "until": "08:00"
+        },
+        {
+          "temparature": {
+            "valueC": 19.5,
+            "valueF": 67.1
+          },
+          "until": "09:00"
+        },
+        {
+          "temparature": {
+            "valueC": 14.5,
+            "valueF": 58.1
+          },
+          "until": "17:30"
+        },
+        {
+          "temparature": {
+            "valueC": 19.5,
+            "valueF": 67.1
+          },
+          "until": "23:00"
+        },
+        {
+          "temparature": {
+            "valueC": 14.5,
+            "valueF": 58.1
+          },
+          "until": "24:00"
+        }
+      ],
+      "sun": [
+        {
+          "temparature": {
+            "valueC": 14.5,
+            "valueF": 58.1
+          },
+          "until": "08:00"
+        },
+        {
+          "temparature": {
+            "valueC": 19.5,
+            "valueF": 67.1
+          },
+          "until": "09:00"
+        },
+        {
+          "temparature": {
+            "valueC": 14.5,
+            "valueF": 58.1
+          },
+          "until": "17:30"
+        },
+        {
+          "temparature": {
+            "valueC": 19.5,
+            "valueF": 67.1
+          },
+          "until": "23:00"
+        },
+        {
+          "temparature": {
+            "valueC": 14.5,
+            "valueF": 58.1
+          },
+          "until": "24:00"
+        }
+      ],
+      "mon": [
+        {
+          "temparature": {
+            "valueC": 14.5,
+            "valueF": 58.1
+          },
+          "until": "06:00"
+        },
+        {
+          "temparature": {
+            "valueC": 19.5,
+            "valueF": 67.1
+          },
+          "until": "08:00"
+        },
+        {
+          "temparature": {
+            "valueC": 14.5,
+            "valueF": 58.1
+          },
+          "until": "17:30"
+        },
+        {
+          "temparature": {
+            "valueC": 19.5,
+            "valueF": 67.1
+          },
+          "until": "23:00"
+        },
+        {
+          "temparature": {
+            "valueC": 14.5,
+            "valueF": 58.1
+          },
+          "until": "24:00"
+        }
+      ],
+      "tue": [
+        {
+          "temparature": {
+            "valueC": 14.5,
+            "valueF": 58.1
+          },
+          "until": "06:00"
+        },
+        {
+          "temparature": {
+            "valueC": 19.5,
+            "valueF": 67.1
+          },
+          "until": "08:00"
+        },
+        {
+          "temparature": {
+            "valueC": 14.5,
+            "valueF": 58.1
+          },
+          "until": "17:30"
+        },
+        {
+          "temparature": {
+            "valueC": 19.5,
+            "valueF": 67.1
+          },
+          "until": "23:00"
+        },
+        {
+          "temparature": {
+            "valueC": 14.5,
+            "valueF": 58.1
+          },
+          "until": "24:00"
+        }
+      ],
+      "wed": [
+        {
+          "temparature": {
+            "valueC": 14.5,
+            "valueF": 58.1
+          },
+          "until": "06:00"
+        },
+        {
+          "temparature": {
+            "valueC": 19.5,
+            "valueF": 67.1
+          },
+          "until": "08:00"
+        },
+        {
+          "temparature": {
+            "valueC": 14.5,
+            "valueF": 58.1
+          },
+          "until": "17:30"
+        },
+        {
+          "temparature": {
+            "valueC": 19.5,
+            "valueF": 67.1
+          },
+          "until": "23:00"
+        },
+        {
+          "temparature": {
+            "valueC": 14.5,
+            "valueF": 58.1
+          },
+          "until": "24:00"
+        }
+      ],
+      "thu": [
+        {
+          "temparature": {
+            "valueC": 14.5,
+            "valueF": 58.1
+          },
+          "until": "06:00"
+        },
+        {
+          "temparature": {
+            "valueC": 19.5,
+            "valueF": 67.1
+          },
+          "until": "08:00"
+        },
+        {
+          "temparature": {
+            "valueC": 14.5,
+            "valueF": 58.1
+          },
+          "until": "17:30"
+        },
+        {
+          "temparature": {
+            "valueC": 19.5,
+            "valueF": 67.1
+          },
+          "until": "23:00"
+        },
+        {
+          "temparature": {
+            "valueC": 14.5,
+            "valueF": 58.1
+          },
+          "until": "24:00"
+        }
+      ],
+      "fri": [
+        {
+          "temparature": {
+            "valueC": 14.5,
+            "valueF": 58.1
+          },
+          "until": "06:00"
+        },
+        {
+          "temparature": {
+            "valueC": 19.5,
+            "valueF": 67.1
+          },
+          "until": "08:00"
+        },
+        {
+          "temparature": {
+            "valueC": 14.5,
+            "valueF": 58.1
+          },
+          "until": "17:30"
+        },
+        {
+          "temparature": {
+            "valueC": 19.5,
+            "valueF": 67.1
+          },
+          "until": "23:00"
+        },
+        {
+          "temparature": {
+            "valueC": 14.5,
+            "valueF": 58.1
+          },
+          "until": "24:00"
+        }
+      ]
+    },
+    "ecoTemperature": {
+      "valueC": 14.0,
+      "valueF": 57.2
+    },
+    "comfortTemperature": {
+      "valueC": 19.5,
+      "valueF": 67.1
+    },
+    "openWindowConfig": {
+      "temperature": {
+        "valueC": 15.5,
+        "valueF": 59.9
+      },
+      "minutes": 5
+    },
+    "offsetTemperature": {
+      "valueC": 0.0,
+      "valueF": 32.0
+    }
+  }
+]

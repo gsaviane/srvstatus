@@ -17,10 +17,13 @@ install:
 		@setfacl -m u:telegraf:rx .
 
 	@cp service.py /usr/local/bin/$(package_name).py
+	@cp eqiva.py /usr/local/bin/eqiva.py
 	@cp -n srvstatus.ini /etc/telegraf/srvstatus.ini
 	@cp 010-srvstatus.conf /etc/telegraf/telegraf.d/010-srvstatus.conf
+	@cp 020-eqiva.conf /etc/telegraf/telegraf.d/020-eqiva.conf
 
 	@chmod 750 /usr/local/bin/$(package_name).py
+	@chmod 750 /usr/local/bin/eqiva.py
 	@chown telegraf:telegraf /usr/local/bin/$(package_name).py
 	@chmod 644 /etc/telegraf/srvstatus.ini
 
