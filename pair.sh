@@ -1,6 +1,7 @@
 #!/bin/bash
 set -e
 
+# NOTE: Long press the central button to put the device in pairing mode
 EQIVA_MAC_1="00:1A:22:1C:4D:DC"
 
 echo "Enable Bluetooth device for scanning ..."
