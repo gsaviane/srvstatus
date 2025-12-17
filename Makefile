@@ -15,7 +15,6 @@ install:
 		$(package_name)/bin/pip3 install --upgrade setuptools wheel pip && \
 		$(package_name)/bin/pip3 install -r $(current_dir)/requirements.txt
 
-	@setfacl -m u:telegraf:rx .
 	@cp service.py /usr/local/bin/$(package_name).py
 	@cp eqiva.py /usr/local/bin/eqiva.py
 	@cp -n srvstatus.ini /etc/telegraf/srvstatus.ini
