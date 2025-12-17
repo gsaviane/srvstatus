@@ -13,9 +13,9 @@ install:
 		$(python_interpreter_path) -m venv --symlinks $(package_name) && \
 		$(package_name)/bin/$(python_interpreter) -m ensurepip && \
 		$(package_name)/bin/pip3 install --upgrade setuptools wheel pip && \
-		$(package_name)/bin/pip3 install -r $(current_dir)/requirements.txt \
-		@setfacl -m u:telegraf:rx .
+		$(package_name)/bin/pip3 install -r $(current_dir)/requirements.txt
 
+	@setfacl -m u:telegraf:rx .
 	@cp service.py /usr/local/bin/$(package_name).py
 	@cp eqiva.py /usr/local/bin/eqiva.py
 	@cp -n srvstatus.ini /etc/telegraf/srvstatus.ini
