@@ -24,6 +24,7 @@ install:
 	@chmod 750 /usr/local/bin/$(package_name).py
 	@chmod 750 /usr/local/bin/eqiva.py
 	@chown telegraf:telegraf /usr/local/bin/$(package_name).py
+	@chown telegraf:telegraf /usr/local/bin/eqiva.py
 	@chmod 644 /etc/telegraf/srvstatus.ini
 
 	@systemctl reload telegraf.service
