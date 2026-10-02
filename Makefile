@@ -2,6 +2,7 @@ python_interpreter = python3
 # Watch out! Don't use /snap/bin. It would link to GLIBC outside snap
 python_interpreter_path = /usr/bin/$(python_interpreter)
 package_name = srvstatus
+venv_path=/opt/$(package_name)
 current_dir = $(shell pwd)
 SHELL := /bin/bash
 
@@ -9,11 +10,11 @@ all:
 	@echo "https://github.com/ratibor78/srvstatus"
 
 install:
-	@cd && \
-		$(python_interpreter_path) -m venv --symlinks $(package_name) && \
-		$(package_name)/bin/$(python_interpreter) -m ensurepip && \
-		$(package_name)/bin/pip3 install --upgrade setuptools wheel pip && \
-		$(package_name)/bin/pip3 install -r $(current_dir)/requirements.txt
+	@cd && mkdir -p $(venv_path) && \
+		$(python_interpreter_path) -m venv --symlinks $(package_name) $(venv_path) && \
+		$(venv_path)/bin/$(python_interpreter) -m ensurepip && \
+		$(venv_path)/bin/pip3 install --upgrade setuptools wheel pip && \
+		$(venv_path)/bin/pip3 install -r $(current_dir)/requirements.txt
 
 	@cp service.py /usr/local/bin/$(package_name).py
 	@cp eqiva.py /usr/local/bin/eqiva.py
